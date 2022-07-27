@@ -1,0 +1,52 @@
+body {
+    background-size: cover;
+    background-image: url('https://www.gererseul.com/wp-content/uploads/2017/12/place-de-parking-adoptez-la-bonne-strate%CC%81gie.jpg');
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    border-bottom: 4px solid white;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+h1 {
+    margin-top: 1%;
+    color: whitesmoke;
+}
+
+section {
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+    box-shadow: 4px 4px black;
+    background-color: white;
+}
+
+.rouge {
+    margin-left: 1%;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+
+.vert {
+    margin-left: 1%;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+}
+
+.txtrouge {
+    color: red;
+}
